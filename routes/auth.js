@@ -5,7 +5,7 @@ const router = require('express').Router();
 router.post('/login' , loginController)
 
 router.post('/signup' , signupController)
-router.post('/user/:id' , getUserById)
+router.post('/user/:id'    , getUserById)
 
 
 module.exports = router;
